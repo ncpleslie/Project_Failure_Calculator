@@ -93,4 +93,20 @@ export default {
   font-weight: bold;
   margin-bottom: 0;
 }
+
+@media only screen and (max-width: 48rem) {
+  .grouping__term_table_th {
+    font-size: 0.75rem;
+  }
+
+  .grouping__term_table_th {
+    width: 1rem;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+}
 </style>
