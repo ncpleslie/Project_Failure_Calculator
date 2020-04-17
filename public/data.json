@@ -1,0 +1,15 @@
+{
+  "External Communication Management": {
+    "terms": [{
+        "name": "Ineffective External Interaction",
+        "description": "This is the description",
+        "weighting": 1
+      },
+      {
+        "name": "Poor Stakeholder Management",
+        "description": "This is the description",
+        "weighting": 1
+      }
+    ]
+  }
+}

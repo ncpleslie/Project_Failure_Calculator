@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0 0 0 0;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.grouping__term_table_th {
+  text-align: center;
+}
+
+.grouping__term_table_td {
+  text-align: center;
+  width: 100%;
+}
+
+.grouping__term_table_title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.results {
+  display: none;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+}
