@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -51,5 +51,5 @@
     "vuejs",
     "starter"
   ],
-  "description": "Vue.js example starter project"
+  "description": "Project failure tool produced by Nick Leslie and Max Owens"
 }
