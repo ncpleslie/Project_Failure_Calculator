@@ -58,10 +58,13 @@ export default {
     calculateResults() {
       // When user pushed "calculate" button
       // in "SuccessCard.vue"
-      let results = 0;
       let count = 0;
+      for (let aData in this.groupingData) {
+        count += this.groupingData[aData]["terms"].length;
+      }
+
+      let results = 0;
       for (let aGroup in this.calculatorState) {
-        count++;
         results +=
           this.calculatorState[aGroup].value *
           this.calculatorState[aGroup].weighting;
