@@ -7,7 +7,7 @@
       <b>Guide:</b>
     </p>
     <p>
-      To operate this tool with maximum effectiveness, it is imperivate that you answer the questions as best you can and as truthfully as possible. Starting from
+      To operate this tool with maximum effectiveness, it is imperative that you answer the questions as best you can and as truthfully as possible. Starting from
       <i>External Communication Management</i>, make your way down the list until you have answered
       <u>every</u> statement and click the "Calculate" button.
       <br />Your potential chance of failure will be displayed.
