@@ -1,158 +1,162 @@
 {
   "External Communication Management": {
+    "description": "The methods and means of which a team communicate with all external parties involved in the development of the project, such as the primary stakeholders and vendor representatives. This can include how well external stakeholders are interacted with, how their needs are handled, if they are ready and trained to handle the deployment of the project. ",
     "terms": [{
         "name": "Ineffective External Interaction",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Poor stakeholder management/Stakeholder management (Stakeholder Engagement)",
+        "name": "Poor stakeholder management or Lack of Stakeholder Engagement",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Evaluation of vendor expertise",
+        "name": "Poor Vendor Management",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Relationship with sector",
+        "name": "Poor Contract Management",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Interactive Vendor Engagement/’Competitive Dialogue’",
+        "name": "Sector Readiness/Training",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Vendor management",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Contract Management",
+        "name": "Inadequate Customer Support",
         "description": "This is the description",
         "weighting": 1
       }
     ]
   },
   "Budget management": {
+    "description": "Represents the level of control a team has over their financial resources. There are a variety of different factors which impact and influence budget management differently but are all significant. Important factors to consider are budget overruns/mismanagement and how well resources are dispersed across the production timeline.",
     "terms": [{
         "name": "Unplanned expenditures",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Budget overrun",
+        "name": "Poor Budget Management",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Operations Expenditure",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Budget/Poor budget management *",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Budget monitoring",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Contingency funding",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Adequate resource allocation *",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Poor procurement management",
+        "name": "Inadequate Resource Allocation",
         "description": "This is the description",
         "weighting": 1
       }
     ]
   },
   "Leadership and Team (Internal) Management": {
+    "description": "Best represents the composition of a team and how it is controlled, dictated, and lead, such as the strength and confidence of whomever oversees the project, and the overall composition and culture of the team members. This also includes staff morale, managing and removing roadblocks. This also includes risk management and how leadership and members of the team minimize or remove risks in the project.",
     "terms": [{
-        "name": "Untrained staff/resources *",
+        "name": "Untrained staff/Resources",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Project governance",
+        "name": "Inexperienced Leadership",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Lack/weakness of leadership",
+        "name": "Weakness of Project Execution",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Poor staff morale",
+        "name": "Poor Project Management and Governance",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Inexperience/Experience of resources",
+        "name": "Poor Culture and staff morale",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Inexperienced Leadership *",
+        "name": "Poor Risk Management",
+        "description": "This is the description",
+        "weighting": 1
+      }
+    ]
+  },
+  "Change and Scope Management": {
+    "description": "Describes the level of control and understanding the team has of the requirements set before them. Managing change is important to prepare for expected and unexpected modifications. Managing scope is the understand what is required for the project to succeed and ensuring scope-creep (uncontrolled growth of project requirements) is managed and expectations are contained.",
+    "terms": [{
+        "name": "Scope Creep",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Poor responsibility assignment",
+        "name": "Change Management",
+        "description": "This is the description",
+        "weighting": 1
+      }
+    ]
+  },
+  "Time Management": {
+    "description": "Time Management is the method for controlling and directing the tasks needed for the project to be completed within a given time frame and reaching pre-determined milestones. Missed milestones and inadequate scheduling of the project timeline are key risk factors that could issues in our groupings, such as increased risk and increased spending. Lack of Time Management can also decrease Quality Assurance as the timeline is changed to ensure the project is delivered on time.",
+    "terms": [{
+        "name": "Missed Milestones",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Adequate resource allocation",
+        "name": "Poor Schedule Management",
+        "description": "This is the description",
+        "weighting": 1
+      }
+    ]
+  },
+  "Quality Assurance": {
+    "description": "The technique involving constant and efficient checking on all aspects quality of the product being produced. Aspects such as testing, various system integrations and customer support all fall under this category. If testing requirements decrease or are not performed, this is a good indicator that the delivered product could contain defects. Lack of following industry best practices (ITIL, etc) could cause the project to fail.",
+    "terms": [{
+        "name": "Lack of Testing",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Adequate staffing/resources management",
+        "name": "Lack of adherence to Industry Best Practices",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Lack of accountability",
+        "name": "Poor System Intergration",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Project execution *",
+        "name": "Project Defects",
+        "description": "This is the description",
+        "weighting": 1
+      }
+    ]
+  },
+  "Planning/Requirements Gathering": {
+    "description": "This category is the acquiring and managing of necessary resources and applicable systems for the project to come fully into complete, functional fruition.",
+    "terms": [{
+        "name": "Poor Service Requirement",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Insufficient training",
+        "name": "Poor Service Design",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Project management *",
+        "name": "Poor Requirements Analysis",
         "description": "This is the description",
         "weighting": 1
       },
       {
-        "name": "Culture/Poor Culture",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Scope Change",
+        "name": "Lack of Requirements Research",
         "description": "This is the description",
         "weighting": 1
       }

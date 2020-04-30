@@ -6,7 +6,12 @@
     <p>
       <b>Guide:</b>
     </p>
-    <p>This is a placeholder for a guide. I'm baby venmo dan dan noodles jianbing meh post-ironic snackwave. Put a bird on it drinking vinegar fingerstache freegan 90's marfa tofu vexillologist letterpress copper mug waistcoat blue bottle cray. Narwhal crucifix normcore, VHS la croix intelligentsia live-edge. Master cleanse echo park tattooed blog jean shorts migas pitchfork knausgaard bushwick mixtape.</p>
+    <p>
+      To operate this tool with maximum effectiveness, it is imperivate that you answer the questions as best you can and as truthfully as possible. Starting from
+      <i>External Communication Management</i>, make your way down the list until you have answered
+      <u>every</u> statement and click the "Calculate" button.
+      <br />Your potential chance of failure will be displayed.
+    </p>
   </div>
 </template>
 

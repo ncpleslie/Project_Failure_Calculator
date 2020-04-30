@@ -5,6 +5,7 @@
         <tr>
           <th class="grouping__term_table_th">
             <h3>{{ this.name }}</h3>
+            <p>{{ this.description }}</p>
           </th>
           <th class="grouping__term_table_th">No Impact</th>
           <th class="grouping__term_table_th">Little Impact</th>
@@ -27,7 +28,7 @@
               class="grouping__term__input"
               :name="radioName(value.name)"
               @change="buttonActivated($event, value.weighting)"
-            />
+            >
           </td>
         </tr>
       </tbody>
@@ -38,6 +39,7 @@
 <script>
 export default {
   props: {
+    description: String,
     terms: Array,
     name: String,
     activated: Function,

@@ -4,6 +4,7 @@
     <GroupingCard
       v-for="(value, name) in this.groupingData"
       :key="name"
+      :description="value['description']"
       :terms="value['terms']"
       :name="name"
       :activated="makeSuccessCardVisible"
@@ -58,12 +59,14 @@ export default {
       // When user pushed "calculate" button
       // in "SuccessCard.vue"
       let results = 0;
+      let count = 0;
       for (let aGroup in this.calculatorState) {
+        count++;
         results +=
           this.calculatorState[aGroup].value *
           this.calculatorState[aGroup].weighting;
       }
-      this.results = results;
+      this.results = ((results / count) * 100) / 4;
     }
   }
 };
