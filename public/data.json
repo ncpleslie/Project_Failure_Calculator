@@ -4,27 +4,27 @@
     "terms": [{
         "name": "Ineffective External Interaction",
         "description": "When communication between parties outside of the development of the project who are indirectly involved is poor",
-        "weighting": 1
+        "weighting": 0.04
       },
       {
         "name": "Poor stakeholder management/Stakeholder Engagement",
         "description": "When communication and organisation of stakeholders and their responsibilities is inadequate",
-        "weighting": 1
+        "weighting": 0.30
       },
       {
         "name": "Poor Vendor Management",
         "description": "Poorly and ineffectively controlling and overseeing of the necessary external vendors required to help the project succeed",
-        "weighting": 1
+        "weighting": 0.13
       },
       {
         "name": "Poor Contract Management",
         "description": "When necessary contracts that have been created for the purpose of the project have been poorly communicated or breached",
-        "weighting": 1
+        "weighting": 0.12
       },
       {
         "name": "Inadequate Customer Support",
         "description": "When there is readily available support for end users of the final product. When deployed successfully, it can help a recently completed project stay afloat. This also includes if stakeholder/users have been trained to use the system correctly when it is live",
-        "weighting": 1
+        "weighting": 0.12
       }
     ]
   },
@@ -33,7 +33,7 @@
     "terms": [{
       "name": "Poor Budget Management",
       "description": "When the financial resources of the project are poorly allocated and mis-used, therefore leaving project development with less resources than originally planned. This also includes unplanned expenditures ",
-      "weighting": 1
+      "weighting": 0.16
     }]
   },
   "Leadership and Team (Internal) Management": {

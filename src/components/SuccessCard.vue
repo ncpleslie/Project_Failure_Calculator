@@ -7,7 +7,7 @@
         v-if="called"
         class="alert"
         v-bind:class="{'alert-danger': isBadResult(), 'alert-success': !isBadResult()}"
-      >{{this.result.toFixed(2)}}% chance of project failure</h4>
+      >{{this.result.toFixed(0)}}% chance of project failure</h4>
       <button id="results__btn" class="btn btn-primary" @click="this.calculateResults">Calculate</button>
     </div>
   </div>

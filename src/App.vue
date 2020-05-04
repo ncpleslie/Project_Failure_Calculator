@@ -58,18 +58,19 @@ export default {
     calculateResults() {
       // When user pushed "calculate" button
       // in "SuccessCard.vue"
-      let count = 0;
-      for (let aData in this.groupingData) {
-        count += this.groupingData[aData]["terms"].length;
-      }
 
+      let multiplier = 25; // Max num is 4 so 4/100 = 25
       let results = 0;
+      let weighting = 0;
       for (let aGroup in this.calculatorState) {
         results +=
           this.calculatorState[aGroup].value *
+          multiplier *
           this.calculatorState[aGroup].weighting;
+
+        weighting += this.calculatorState[aGroup].weighting;
       }
-      this.results = ((results / count) * 100) / 4;
+      this.results = Math.floor(results / weighting);
     }
   }
 };
