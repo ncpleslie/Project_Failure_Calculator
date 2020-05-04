@@ -22,7 +22,7 @@
         "weighting": 0.12
       },
       {
-        "name": "Inadequate Customer Support",
+        "name": "Inadequate Customer Support and Training",
         "description": "When there is readily available support for end users of the final product. When deployed successfully, it can help a recently completed project stay afloat. This also includes if stakeholder/users have been trained to use the system correctly when it is live",
         "weighting": 0.12
       }
@@ -32,7 +32,7 @@
     "description": "Represents the level of control a team has over their financial resources. There are a variety of different factors which impact and influence budget management differently but are all significant. Important factors to consider are budget overruns/mismanagement and how well resources are dispersed across the production timeline.",
     "terms": [{
       "name": "Poor Budget Management",
-      "description": "When the financial resources of the project are poorly allocated and mis-used, therefore leaving project development with less resources than originally planned. This also includes unplanned expenditures ",
+      "description": "When the financial resources of the project are poorly allocated and mis-used, therefore leaving project development with less resources than originally planned. This also includes unplanned expenditures",
       "weighting": 0.16
     }]
   },
@@ -41,32 +41,32 @@
     "terms": [{
         "name": "Untrained staff/Resources",
         "description": "When the staff on the project are not properly equipped or experienced to develop the project. This has significant impact on development",
-        "weighting": 1
+        "weighting": 0.09
       },
       {
         "name": "Inexperienced Leadership",
         "description": "When the leader(s) of the project do not have enough experience in that particular field, or in leading a team, it can slow project development to a crawl, or complete stop altogether",
-        "weighting": 1
+        "weighting": 0.25
       },
       {
         "name": "Poor Project Management and Governance",
-        "description": "when overall project development and team designation is badly handled and poorly executed. For example, assigning team members to incorrect role, or mismanaging the planning and execution of the project. This can also include managements inability to admin defeat when a project has failed, or is about to fail",
-        "weighting": 1
+        "description": "When overall project development and team designation is badly handled and poorly executed. For example, assigning team members to incorrect role, or mismanaging the planning and execution of the project. This can also include managements inability to admin defeat when a project has failed, or is about to fail",
+        "weighting": 0.37
       },
       {
         "name": "Poor Culture and staff morale",
         "description": "When the mentality and ethic of a development team is not taken seriously. Team members require a positive work environment to thrive and without it, development could cease altogether",
-        "weighting": 1
+        "weighting": 0.18
       },
       {
         "name": "Poor Risk Management",
         "description": "When potential risks to the project’s development or launch are not foreseen/handled well enough, it can greatly impact success chance",
-        "weighting": 1
+        "weighting": 0.22
       },
       {
         "name": "Inadequate resource allocation",
         "description": "When the resources needed for the project to succeed are appropriately used and allocated. This includes how staff are allocated to different aspects of the project",
-        "weighting": 1
+        "weighting": 0.02
       }
     ]
   },
@@ -75,12 +75,12 @@
     "terms": [{
         "name": "Scope Creep",
         "description": "The addition of extra requirements beyond the initial scope of the project",
-        "weighting": 1
+        "weighting": 0.27
       },
       {
         "name": "Lack of adherence to correct change management strategies ",
         "description": "The strategies in place to manage resources that ensure a correct business outcome and allow for the correct introduction of change into a project. Change is anything that can impact the project",
-        "weighting": 1
+        "weighting": 0.13
       }
     ]
   },
@@ -89,12 +89,12 @@
     "terms": [{
         "name": "Missed Milestones",
         "description": "When tasks are not completed by a specified time or date, a backlog can occur which can slow development",
-        "weighting": 1
+        "weighting": 0.15
       },
       {
         "name": "Poor Schedule Management",
-        "description": "When tasks are not given an end date, or go overtime, a backlog can occur",
-        "weighting": 1
+        "description": "When tasks are not given an end date, or go overtime, a backlog can occur. As well as, the inability to modify the timeline when new requirements were added",
+        "weighting": 0.07
       }
     ]
   },
@@ -102,47 +102,32 @@
     "description": "The technique involving constant and efficient checking on all aspects quality of the product being produced. Aspects such as testing, various system integrations and customer support all fall under this category. If testing requirements decrease or are not performed, this is a good indicator that the delivered product could contain defects. Lack of following industry best practices (ITIL, etc) could cause the project to fail.",
     "terms": [{
         "name": "Lack of Testing",
-        "description": "Description",
-        "weighting": 1
+        "description": "This is the description",
+        "weighting": 0.17
       },
       {
         "name": "Lack of adherence to Industry Best Practices",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Poor System Intergration",
-        "description": "This is the description",
-        "weighting": 1
+        "description": "If industry best practices are not followed (Such as ITIL), it can lead to following poor or incorrect processes that increase the probability of project success. These processes exist to ensure business and customer values are aligned.",
+        "weighting": 0.10
       },
       {
         "name": "Project Defects",
         "description": "This is the description",
-        "weighting": 1
+        "weighting": 0.03
       }
     ]
   },
   "Planning/Requirements Gathering": {
     "description": "This category is the acquiring and managing of necessary resources and applicable systems for the project to come fully into complete, functional fruition.",
     "terms": [{
-        "name": "Poor Service Requirement",
-        "description": "This is the description",
-        "weighting": 1
+        "name": "Poor Service Requirement and Lack of Requirement Analysis",
+        "description": "If the requirements of the project are not fully realised then at some point in the project you risk coming to a standstill as further requirements are needed and no longer available.",
+        "weighting": 0.05
       },
       {
         "name": "Poor Service Design",
         "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Poor Requirements Analysis",
-        "description": "This is the description",
-        "weighting": 1
-      },
-      {
-        "name": "Lack of Requirements Research",
-        "description": "This is the description",
-        "weighting": 1
+        "weighting": 0.03
       }
     ]
   }
