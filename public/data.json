@@ -102,7 +102,7 @@
     "description": "The technique involving constant and efficient checking on all aspects quality of the product being produced. Aspects such as testing, various system integrations and customer support all fall under this category. If testing requirements decrease or are not performed, this is a good indicator that the delivered product could contain defects. Lack of following industry best practices (ITIL, etc) could cause the project to fail.",
     "terms": [{
         "name": "Lack of Testing",
-        "description": "This is the description",
+        "description": "When testing is not carried out throughout the development of the project, it can mean that bugs are present and will be undetectable in later stages of the development. It can also mean features may have unintended side effects, or not function as required, which can be a failure in the eyes of the end-users",
         "weighting": 0.17
       },
       {
@@ -112,7 +112,7 @@
       },
       {
         "name": "Project Defects",
-        "description": "This is the description",
+        "description": "- Project defects are identified components of the project that faulty or deficient in some way. These defects are usually repairable but can take an undetermined time. Defects are usually discovered during extensive testing. Leaving defects in can lead to unwanted experiences for the user, system crashes and instability, and increase technical debt",
         "weighting": 0.03
       }
     ]
@@ -126,7 +126,7 @@
       },
       {
         "name": "Poor Service Design",
-        "description": "This is the description",
+        "description": "When the services have been selected, but poorly allocated, it could potentially lead to hindering the development of the project as components that should be working side by side are either unavailable at necessary times or not configured correctly",
         "weighting": 0.03
       }
     ]
